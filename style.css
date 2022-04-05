@@ -1,0 +1,89 @@
+/* Titulo */
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+
+h1{
+    font-size: 70px;
+    color: rgb(255, 255, 251);
+    font-style: oblique;
+    background-color: rgba(145, 116, 72, 0.966);
+    font-family: 'Palette Mosaic', cursive;
+    /*relleno*/
+    padding: 50px;
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 200px;
+
+    /*Bordes- size + style + color*/
+    border: 5px groove rgb(209, 167, 28) ;
+
+
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: rgba(145, 158, 25, 0.712);
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+.comentario{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+ul li {
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    color: rgb(241, 237, 229);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Imagen de fondo*/
+.home {
+    background-image: url('./imagenes/4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image{
+    width: 20%;
+}
+
+/*Posicionamiento*/
+
+.fixed{
+    position: fixed;
+    bottom: 5px;
+    right: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
